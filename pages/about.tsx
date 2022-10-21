@@ -21,11 +21,10 @@ function About() {
                   consolidate all of the information I found into one place.
                 </p>
                 <p className="max-w-prose">
-                  <span className="ml-6">Enter</span> ozktech.com - a simple way
-                  to find tech companies and jobs in the Ozarks. What started as a random Notes
-                  document on my phone is now available as OSS to be shared, copied, and improved
-                  upon. The intention is to make this a living document available to anyone who may
-                  need it.
+                  <span className="ml-6">Enter</span> ozktech.com - a simple way to find tech
+                  companies and jobs in the Ozarks. What started as a random Notes document on my
+                  phone is now available as OSS to be shared, copied, and improved upon. The
+                  intention is to make this a living document available to anyone who may need it.
                 </p>
                 <p className="max-w-prose">
                   <span className="ml-6">If</span> any of the information on this website is
