@@ -119,6 +119,126 @@ const COMPANIES: COMPANY[] = [
     careers: 'https://www.linkedin.com/company/hearolife/jobs',
     city: 'Springfield',
     state: 'MO'
+  },
+  {
+    name: 'Hiperion',
+    category: 'Private',
+    description: 'Hiperion provides software development and prototyping services.',
+    facebook: 'hiperionio',
+    instagram: 'hiperionio',
+    twitter: '',
+    linkedin: 'hiperion-io',
+    careers: 'https://www.linkedin.com/company/hiperion-io/jobs',
+    city: 'Springfield',
+    state: 'MO'
+  },
+  {
+    name: 'Jmark',
+    category: 'Private',
+    description: 'Jmark provides IT and cybersecurity expertise.',
+    facebook: 'JMARKBusinessSolutions',
+    instagram: 'jmark_it',
+    twitter: 'JMARK_Support',
+    linkedin: 'jmark',
+    careers: 'https://www.jmark.com/work-with-us',
+    city: 'Springfield',
+    state: 'MO'
+  },
+  {
+    name: 'ISG Technologies',
+    category: 'Private',
+    description: 'ISG provides managed IT services for businesses.',
+    facebook: 'ISGTech',
+    instagram: '',
+    twitter: 'isgtech',
+    linkedin: 'isg-technology-inc',
+    careers: 'https://www.isgtech.com/about-us/technology-careers',
+    city: 'Springfield',
+    state: 'MO'
+  },
+  {
+    name: 'Pitt Technology Group',
+    category: 'Private',
+    description: 'Pitt Technology offers specialized IT and web services.',
+    facebook: 'pitttechnology',
+    instagram: '',
+    twitter: '',
+    linkedin: 'pitt-technology-group',
+    careers: 'https://www.linkedin.com/company/pitt-technology-group/jobs',
+    city: 'Springfield',
+    state: 'MO'
+  },
+  {
+    name: 'Moonbeam Development',
+    category: 'Private',
+    description: 'Moonbeam is an app development and web design company.',
+    facebook: 'MoonbeamDevelopment',
+    instagram: '',
+    twitter: 'moonbeamdev',
+    linkedin: '',
+    careers: 'https://moonbeamdevelopment.com/about/careers',
+    city: 'Springfield',
+    state: 'MO'
+  },
+  {
+    name: 'Whysdom',
+    category: 'Private',
+    description: 'Whysdom is a behavioral science & marketing tech firm.',
+    facebook: '',
+    instagram: '',
+    twitter: '',
+    linkedin: 'whysdom',
+    careers: 'https://www.linkedin.com/company/whysdom/jobs',
+    city: 'Branson',
+    state: 'MO'
+  },
+  {
+    name: 'FX Tech',
+    category: 'Private',
+    description: 'FX Tech is an IT services and consulting company.',
+    facebook: 'fxtechspringfield',
+    instagram: '',
+    twitter: '',
+    linkedin: 'fxtechnology',
+    careers: 'https://www.linkedin.com/company/fxtechnology/jobs',
+    city: 'Springfield',
+    state: 'MO'
+  },
+  {
+    name: 'Healthcare First',
+    category: 'Private',
+    description: 'Healtcare First is a home health and hospice software company.',
+    facebook: 'HEALTHCAREfirst',
+    instagram: '',
+    twitter: 'HEALTHCAREfirst',
+    linkedin: 'healthcarefirst',
+    careers: 'https://www.healthcarefirst.com/careers',
+    city: 'Springfield',
+    state: 'MO'
+  },
+  {
+    name: 'Titan Digital',
+    category: 'Private',
+    description: 'Titan Digital is a digital marketing and web design agency.',
+    facebook: 'Titan.Digital.TN',
+    instagram: '',
+    twitter: 'TitanDigital_TN',
+    linkedin: 'titandigital',
+    careers: 'https://www.linkedin.com/company/titandigital/jobs',
+    city: 'Ozark',
+    state: 'MO'
+  },
+  {
+    name: 'Paperwise',
+    category: 'Private',
+    description: 'Paperwise is a process automation software company.',
+    facebook: 'paperwise',
+    instagram: '',
+    twitter: 'Paperwise',
+    linkedin: 'paperwise',
+    careers: 'https://www.paperwise.com/careers',
+    city: 'Springfield',
+    state: 'MO'
   }
 ]
 
