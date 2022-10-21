@@ -9,7 +9,7 @@ function App(props: AppProps): JSX.Element {
   const { Component, pageProps } = props
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="system">
+    <ThemeProvider attribute="class" defaultTheme="light">
       <Layout>
         <Component {...pageProps} />
       </Layout>

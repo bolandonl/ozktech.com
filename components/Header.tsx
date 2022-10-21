@@ -1,7 +1,7 @@
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { FiMoon, FiSun } from 'react-icons/fi'
+import { FiGithub, FiMail, FiMoon, FiSun } from 'react-icons/fi'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -32,13 +32,25 @@ function Header() {
               ))}
             </div>
           </div>
-          <button
+          <div>
+            <button type="button" className="mx-4">
+              <a href="mailto:hello@ozktech.com" target="_blank" rel="noreferrer">
+                <FiMail className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
+              </a>
+            </button>
+            <button type="button" className="mx-4">
+              <a href="https://github.com/bolandonl/ozktech.com" target="_blank" rel="noreferrer">
+                <FiGithub className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
+              </a>
+            </button>
+          </div>
+          {/* <button
             type="button"
             onClick={() => setTheme(resolvedTheme === 'light' ? 'dark' : 'light')}
             className="text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200 text-2xl items-center justify-end hidden lg:flex"
           >
             {resolvedTheme === 'light' ? <FiSun /> : <FiMoon />}
-          </button>
+          </button> */}
         </div>
         <div className="flex py-12 flex-wrap justify-between space-x-6 lg:hidden">
           <div className="flex-wrap space-x-6">
@@ -55,13 +67,18 @@ function Header() {
               </span>
             ))}
           </div>
-          <button
-            type="button"
-            onClick={() => setTheme(resolvedTheme === 'light' ? 'dark' : 'light')}
-            className="text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200 text-normal text-2xl"
-          >
-            {resolvedTheme === 'light' ? <FiSun /> : <FiMoon />}
-          </button>
+          <div>
+            <button type="button" className="mx-4">
+              <a href="mailto:hello@ozktech.com" target="_blank" rel="noreferrer">
+                <FiMail className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
+              </a>
+            </button>
+            <button type="button" className="mx-4">
+              <a href="https://github.com/bolandonl/ozktech.com" target="_blank" rel="noreferrer">
+                <FiGithub className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
+              </a>
+            </button>
+          </div>
         </div>
       </nav>
     </header>
