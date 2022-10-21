@@ -15,8 +15,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Juxly',
     category: 'Private',
-    description:
-      'Juxly Vault is an EMR app that empowers healthcare providers, ACOs, DCEs, and payers to improve patient care and financial earnings by seamlessly integrating data across platforms.',
+    description: 'Juxly Vault is an app integrating medical data across platforms.',
     facebook: 'Juxly-108425987584011',
     instagram: '',
     twitter: 'juxlyhealth',
@@ -28,8 +27,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Bass Pro Shops',
     category: 'Private',
-    description:
-      'Bass Pro Shops is a premier outdoor and conservation company specializing in the sale of recreational goods and clothing.',
+    description: 'Bass Pro Shops is a premier outdoor and conservation company.',
     facebook: 'bassproshops',
     instagram: 'bassproshops',
     twitter: 'bassproshops',
@@ -41,8 +39,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Classy Llama',
     category: 'Private',
-    description:
-      'Classy Llama designs and delivers eCommerce solutions, creating value for exceptional brands via a broad range of services.',
+    description: 'Classy Llama is a full-service e-commerce and web agency.',
     facebook: 'ClassyLlama',
     instagram: 'classyllama',
     twitter: 'classyllama',
@@ -54,8 +51,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Mostly Serious',
     category: 'Private',
-    description:
-      'Mostly Serious is a full-service digital agency producing custom web design, digital marketing, advertising, SEO, and content.',
+    description: 'Mostly Serious is a full-service web and digital agency.',
     facebook: 'mostlyserious',
     instagram: 'mostly_serious',
     twitter: 'mostly_serious',
@@ -67,8 +63,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Netsmart',
     category: 'Private',
-    description:
-      'Netsmart is a healthcare software company developing technology and providing services that support individualized care and improve outcomes.',
+    description: 'Netsmart is a healthcare software development company.',
     facebook: 'netsmart',
     instagram: 'netsmartcareers',
     twitter: 'netsmarttech',
@@ -80,7 +75,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: `O'Reilly Auto Parts`,
     category: 'Private',
-    description: `O'Reilly Automotive is an auto parts supplier offering the best combination of price and quality provided with the highest possible service level.`,
+    description: `O'Reilly Automotive is a car and auto parts supplier.`,
     facebook: 'oreillyautoparts',
     instagram: 'oreillyautoparts',
     twitter: 'OReillyAuto',
@@ -92,8 +87,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Duck Creek Technologies',
     category: 'Private',
-    description:
-      'Duck Creek Technologies is an insurance software company serving the insurance industry with a suite of software and SAAS offerings.',
+    description: 'Duck Creek is an insurance software development company.',
     facebook: 'duckcreektech',
     instagram: '',
     twitter: 'duckcreektech',
@@ -105,8 +99,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Penguin Tech',
     category: 'Private',
-    description:
-      'Penguin Tech delivers advanced technology solutions that compliment the core P&C Insurance Software of Duck Creek Technologies.',
+    description: 'Penguin Tech works with Duck Creek to develop insurance software.',
     facebook: 'penguintechs',
     instagram: '',
     twitter: 'PenguinTechs',
@@ -118,8 +111,7 @@ const COMPANIES: COMPANY[] = [
   {
     name: 'Hearo',
     category: 'Private',
-    description:
-      'Hearo is a remote support system designed for independence, helping people living with disabilities live without full-time in-person supervision.',
+    description: 'Hearo is a remote support system for people living with disabilities.',
     facebook: 'HearoLife',
     instagram: 'hearolife',
     twitter: 'hearolife',
