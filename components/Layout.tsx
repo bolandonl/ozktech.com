@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 function Layout({ children }: { children: ReactNode }) {
   const { pathname } = useRouter()
 
-  if (pathname === '/404') {
+  if (pathname === '/404' || pathname === 'about') {
     return (
       <div className=" bg-cultured dark:bg-dark min-h-screen">
         <div className="max-w-full mx-auto px-8">
@@ -15,9 +15,7 @@ function Layout({ children }: { children: ReactNode }) {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           {children}
         </div>
-        <div className="absolute inset-x-0 bottom-0 max-w-4xl mx-auto px-8">
-          <Footer />
-        </div>
+        <div className="absolute inset-x-0 bottom-0 max-w-4xl mx-auto px-8">{/* <Footer /> */}</div>
       </div>
     )
   }
@@ -27,7 +25,7 @@ function Layout({ children }: { children: ReactNode }) {
       <div className="max-w-full mx-auto px-8">
         <Header />
         <div className="py-2">{children}</div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   )

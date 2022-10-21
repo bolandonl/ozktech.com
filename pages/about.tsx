@@ -7,7 +7,7 @@ function About() {
       <Head>
         <title>ozktech.com</title>
       </Head>
-      <div className="my-16">
+      <div className="">
         <Title className="justify-center text-center" title="ozktech.com" />
         <div className="mt-6">
           <div className="text-lg flex justify-center">
