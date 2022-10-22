@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Divider from '../components/Divider'
-import Subtitle from '../components/SubTitle'
+import Subtitle from '../components/Subtitle'
 
 function About() {
   return (
