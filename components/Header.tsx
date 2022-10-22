@@ -38,7 +38,7 @@ function Header() {
                 <FiMail className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
               </a>
             </button>
-            <button type="button" className="mx-4">
+            <button type="button" className="ml-4">
               <a href="https://github.com/bolandonl/ozktech.com" target="_blank" rel="noreferrer">
                 <FiGithub className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
               </a>
@@ -73,7 +73,7 @@ function Header() {
                 <FiMail className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
               </a>
             </button>
-            <button type="button" className="mx-4">
+            <button type="button" className="ml-4">
               <a href="https://github.com/bolandonl/ozktech.com" target="_blank" rel="noreferrer">
                 <FiGithub className="text-xl text-stone-700 hover:text-richblack dark:text-quicksilver  dark:hover:text-slate-200" />
               </a>
