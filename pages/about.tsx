@@ -8,7 +8,7 @@ function About() {
       <Head>
         <title>ozktech.com</title>
       </Head>
-      <div className="">
+      <>
         <Subtitle className="justify-center text-center" title="ozktech.com" />
         <div className="mt-6">
           <div className="text-lg flex justify-center">
@@ -60,7 +60,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </>
     </>
   )
 }
